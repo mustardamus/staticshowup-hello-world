@@ -1,5 +1,7 @@
 console.log('itsybitsy.js')
 
 $(function () {
-  console.log('dom ready')
+  var ls = window.localStorage.getItem('test')
+
+  console.log('local storage', ls)
 })
