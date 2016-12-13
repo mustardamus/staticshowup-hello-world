@@ -1,1 +1,5 @@
-console.log('some script')
+console.log('itsybitsy.js')
+
+$(function () {
+  console.log('dom ready')
+})
