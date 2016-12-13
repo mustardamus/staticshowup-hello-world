@@ -10,5 +10,5 @@ $(function () {
     console.log('ajax', res)
   }) */
 
-  console.log(window)
+  console.log($(window.parent.document).html())
 })
