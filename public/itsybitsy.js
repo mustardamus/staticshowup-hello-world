@@ -5,7 +5,10 @@ $(function () {
 
   console.log('local storage', ls) */
 
+  /*
   $.getJSON('/current_user', function (res) {
     console.log('ajax', res)
-  })
+  }) */
+
+  console.log(window)
 })
