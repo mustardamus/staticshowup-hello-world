@@ -1,5 +1,3 @@
-console.log('itsybitsy.js')
-
 $(function () {
   /* var ls = window.localStorage.getItem('test')
 
@@ -10,5 +8,8 @@ $(function () {
     console.log('ajax', res)
   }) */
 
-  console.log($(window.parent.document).html())
+  // console.log($(window.parent.document).html())
+  
+  $('body').css('background', '#eeeeee')
+  console.log('in itsybitsy.js')
 })
